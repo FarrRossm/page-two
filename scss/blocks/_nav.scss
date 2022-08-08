@@ -1,0 +1,75 @@
+.nav{
+    width: 1440px ;
+    height: 96px ;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    &__brand{
+        width: 107.82px;
+        height: 28.56px;
+    }
+
+    &__list{
+        // width: 60%;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center ;
+        &__item{
+            list-style-type: none;
+            margin-left: 20px;
+            &--link{
+                text-decoration: none;
+                color: $text-color ;
+                font-size: 15px;
+                &:hover{
+                    color: $main-color;
+                }
+            }
+
+            
+            
+            
+        }
+
+        &__item1{
+            height: 53px;
+            width: 180px;
+            background: $main-color;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            
+            .button1{
+                text-decoration: none;
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                // font-size: 10px;
+                // text-align: center;
+                line-height: 25px;
+                font-size: 15px;
+                
+                color: #fff;
+
+
+            }
+            &:hover{
+                border: 3px solid $main-color;
+
+                background: #fff;
+                .button1{
+                    color: $main-color;
+                }
+                
+            }
+        }
+        
+    }
+
+} 

@@ -1,0 +1,234 @@
+.section-4{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    list-style-type: none;
+    &__title{
+        
+        margin: auto;
+            width: 100%;
+            height: 48px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-left: 400px;
+            
+                font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            /* identical to box height, or 100% */
+        
+            text-align: center;
+            letter-spacing: -2.14286px;
+            color: $title-color;
+            list-style-type: none;
+            
+       }
+    &__list{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-around;
+        &__item h2{
+            font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                /* identical to box height, or 120% */
+            
+                letter-spacing: -1.78571px;
+            
+                color: #495567;
+        }
+        &__item1{
+            display: flex;
+            flex-direction: column;
+            &__link1{
+                width: 730px;
+                height: 191px;
+                background: $background-link;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                & h4{
+                    margin-top: 32px;
+                    margin-bottom: 24px;
+                    font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        /* identical to box height, or 117% */
+                    
+                        letter-spacing: -1.07143px;
+                }
+                & p{
+                    font-family: 'Lexend Deca';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                }
+                &:hover{
+                    background: $link-hover;
+                }
+            }
+
+            &__link2{
+                margin-top: 16px;
+                margin-bottom: 16px;
+                width: 730px;
+                height: 92px;
+                background: $background-link;
+                
+                &:hover{
+                    background: $link-hover;
+                }
+                & h4{
+                    padding: 32px;
+                    font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        /* identical to box height, or 117% */
+                    
+                        letter-spacing: -1.07143px;
+                    
+                        color: #495567;
+                }
+            }
+            &__link3{
+                width: 730px;
+                height: 92px;
+                background: $background-link;
+                & h4{
+                    padding: 32px;
+                    font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        /* identical to box height, or 117% */
+                    
+                        letter-spacing: -1.07143px;
+                    
+                        color: #495567;
+                }
+                &:hover{
+                    background: $link-hover;
+                }
+            }
+        }
+    }
+
+    &__list1{
+        margin-top: 64px;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-around;
+        &__item h2{
+            font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                /* identical to box height, or 120% */
+            
+                letter-spacing: -1.78571px;
+            
+                color: #495567;
+        }
+        
+        &__item1{
+            display: flex;
+            flex-direction: column;
+            &__link1{
+                width: 730px;
+                height: 191px;
+                background: $background-link;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                & h4{
+                    margin-top: 32px;
+                    margin-bottom: 24px;
+                    font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        /* identical to box height, or 117% */
+                    
+                        letter-spacing: -1.07143px;
+                }
+                & p{
+                    font-family: 'Lexend Deca';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                }
+                &:hover{
+                    background: $link-hover;
+                }
+            }
+
+            &__link2{
+                margin-top: 16px;
+                margin-bottom: 16px;
+                width: 730px;
+                height: 92px;
+                background: $background-link;
+                
+                &:hover{
+                    background: $link-hover;
+                }
+                & h4{
+                    padding: 32px;
+                    font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        /* identical to box height, or 117% */
+                    
+                        letter-spacing: -1.07143px;
+                    
+                        color: #495567;
+                }
+            }
+            &__link3{
+                width: 730px;
+                height: 92px;
+                background: $background-link;
+                & h4{
+                    padding: 32px;
+                    font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 24px;
+                        line-height: 28px;
+                        /* identical to box height, or 117% */
+                    
+                        letter-spacing: -1.07143px;
+                    
+                        color: #495567;
+                }
+                &:hover{
+                    background: $link-hover;
+                }
+            }
+        }
+        
+    }
+
+    
+}

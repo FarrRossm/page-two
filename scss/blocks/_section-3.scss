@@ -1,0 +1,50 @@
+.section-3{
+    margin-top: 178px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    list-style-type: none;
+    & h2{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        /* identical to box height, or 100% */
+        text-align: center;
+        letter-spacing: -2.14286px; }
+        color: $title-color;
+     &__list{
+        margin-bottom: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        &__item{
+            & h5{
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                /* identical to box height, or 117% */       
+                text-align: center;
+                letter-spacing: -1.07143px;
+                color: $title-color;
+            }
+            & p{
+                font-family: 'Lexend Deca';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                /* or 167% */        
+                text-align: center;
+                color: $text-color;
+            }
+        }
+    
+    }
+   
+
+}
